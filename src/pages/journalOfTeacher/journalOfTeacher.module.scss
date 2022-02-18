@@ -1,0 +1,100 @@
+.wrapper {
+
+  .sticky {
+    position: sticky;
+    left: 0;
+    background: #fff;
+    border-right: 1px solid black;
+  }
+
+  .stickyRight {
+    position: sticky;
+    right: 0;
+    background: #fff;
+    border-left: 1px solid black;
+  }
+
+  .doubleContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .item {
+      width: 40px;
+    }
+
+    .name {
+      width: 210px;
+    }
+
+
+    .absence {
+      width: 30px;
+    }
+
+    .practicalScore {
+      width: 300px;
+    }
+
+    .finalGrade {
+      width: 120px;
+    }
+  }
+
+  .item {
+    z-index: 20;
+  }
+}
+
+.modal {
+  padding: 10px;
+  width: 704px;
+  height: 320px;
+
+  .header {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .student {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 14px;
+    font-size: 16px;
+    line-height: 26px;
+
+    &FirstData {
+      color: #7F8191;
+      font-weight: normal;
+    }
+
+    &SecondData {
+      color: #2E2E3D;
+      font-weight: bold;
+    }
+  }
+
+  .input {
+    width: 100%;
+    border-radius: 15px;
+  }
+
+  .buttonContainer {
+    display: flex;
+    justify-content: end;
+    margin: 10px;
+
+    .button {
+      width: 201px;
+      height: 62px;
+      background-color: #7671DD;
+      border-radius: 20px;
+    }
+  }
+}
+
+.active {
+  background-color: blueviolet;
+}
